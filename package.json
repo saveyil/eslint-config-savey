@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-savey",
+  "moduleName": "eslint-config-savey",
+  "version": "0.0.1",
+  "description": "Savey's ESLint config",
+  "author": "Sahar Brodbeker <saharonb@gmail.com> (https://github.com/sahariko)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "keywords": [
+    "style guide",
+    "lint"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-html": "^3.0.0"
+  }
+}
