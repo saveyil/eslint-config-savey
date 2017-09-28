@@ -4,9 +4,9 @@ ESLint configuration & ruleset for Javascript (ES6) + React.
 
 ## Installation
 
-Install the NPM package:
+Install the NPM package and all its dependencies:
 ```
-npm i --save-dev eslint-config-savey
+npm install --save-dev eslint-config-savey eslint babel-eslint eslint-config-standard eslint-plugin-html eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
 ```
 Add the configuration to your `extend`:
 ```
