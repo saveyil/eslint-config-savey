@@ -25,7 +25,10 @@ module.exports = {
 		'no-use-before-define': 2,
 		'no-mixed-spaces-and-tabs': 2,
 		'no-multi-spaces': 2,
-		'space-before-function-paren': [2, 'never']
+		'space-before-function-paren': [2, 'never'],
+		'curly': ['error', 'multi-line'],
+		'space-in-parens': 2,
+		'keyword-spacing': 2
 	},
 	plugins: [
 		'html'
