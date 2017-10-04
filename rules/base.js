@@ -18,6 +18,8 @@ module.exports = {
 		'indent': [2,	'tab', {'SwitchCase': 1}],
 		'quotes': [2,	'single'],
 		'semi': [2,	'never'],
+		'no-empty-function': 2,
+		'no-unused-vars': ['error', { vars: 'all', args: 'after-used', 'ignoreRestSiblings': false }],
 		'no-undef': 2,
 		'no-console': 0,
 		'no-use-before-define': 2,

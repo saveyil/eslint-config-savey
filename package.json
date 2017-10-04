@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-savey",
   "moduleName": "eslint-config-savey",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Savey's ESLint config",
   "author": "Sahar Brodbeker <saharonb@gmail.com> (https://github.com/sahariko)",
   "license": "MIT",
