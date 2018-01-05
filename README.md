@@ -1,6 +1,6 @@
 # Savey's ESLint Config
 
-ESLint configuration & ruleset for Javascript (ES6) + React.
+ESLint configuration & ruleset for Javascript, including ES6.
 
 ## Installation
 
