@@ -28,9 +28,9 @@ module.exports = {
     'prefer-template': 2,
     'rest-spread-spacing': 2,
     'space-before-function-paren': [2, {
-      "anonymous": "always",
-      "named": "always",
-      "asyncArrow": "always"
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "ignore"
     }],
     'template-curly-spacing': 2
   }
