@@ -6,11 +6,11 @@ ESLint configuration & ruleset for Javascript, including ES6.
 
 Install the NPM package and all its dependencies:
 ```
-npm install --save-dev eslint-config-savey eslint babel-eslint eslint-config-standard eslint-plugin-html eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+npm i -D eslint-config-savey eslint eslint-config-standard eslint-plugin-import
 ```
-Add the configuration to your `extend`:
+Add the configuration to your `.eslintrc.js` file:
 ```
-{
-	extends: 'savey'
+module.exports = {
+  extends: 'savey'
 }
 ```

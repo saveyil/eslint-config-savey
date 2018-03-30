@@ -1,6 +1,5 @@
 module.exports = {
 	extends: [
-		'./rules/base',
-		'./rules/es6'
+		'./rules/base'
 	].map(require.resolve)
 }
