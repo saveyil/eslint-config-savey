@@ -22,7 +22,7 @@ module.exports = {
     'arrow-spacing': 2,
     'curly': ['error', 'multi-line'],
     'func-style': [2, 'expression'],
-    'indent': [2,	'space', {'SwitchCase': 1}],
+    'indent': [2,	2, {'SwitchCase': 1}],
     'keyword-spacing': 2,
     'no-console': 0,
     'no-duplicate-imports': 2,
