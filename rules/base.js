@@ -1,13 +1,13 @@
 module.exports = {
-	extends: 'eslint:recommended',
-	env: {
-		browser: true,
+  extends: 'eslint:recommended',
+  env: {
+    browser: true,
     es6: true,
-		commonjs: true,
-		node: true
-	},
-	parserOptions: {
-		sourceType: 'module',
+    commonjs: true,
+    node: true
+  },
+  parserOptions: {
+    sourceType: 'module',
     ecmaVersion: 8,
     ecmaFeatures: {
       generators: false,
@@ -15,14 +15,14 @@ module.exports = {
       jsx: true,
       experimentalObjectRestSpread: true
     }
-	},
-	rules: {
+  },
+  rules: {
     'arrow-body-style': 2,
     'arrow-parens': 2,
     'arrow-spacing': 2,
     'curly': ['error', 'multi-line'],
     'func-style': [2, 'expression'],
-    'indent': [2,	'tab', {'SwitchCase': 1}],
+    'indent': [2,	'space', {'SwitchCase': 1}],
     'keyword-spacing': 2,
     'no-console': 0,
     'no-duplicate-imports': 2,
@@ -52,5 +52,5 @@ module.exports = {
     }],
     'space-in-parens': 2,
     'template-curly-spacing': 2
-	}
+  }
 }
